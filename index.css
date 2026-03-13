@@ -1,0 +1,9 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;font-family:'Inter',sans-serif}
+body{overflow-x:hidden;background:#f9fafb}
+input[type=range]{-webkit-appearance:none;appearance:none;height:4px;border-radius:4px;background:#d1fae5;outline:none;cursor:pointer;width:100%;display:block}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;background:#059669;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.2);cursor:pointer}
+select,input[type=number],textarea{font-family:'Inter',sans-serif}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:4px}
+button{cursor:pointer;font-family:'Inter',sans-serif}
